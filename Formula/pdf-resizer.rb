@@ -2,10 +2,10 @@ class PdfResizer < Formula
   include Language::Python::Virtualenv
 
   desc "Resize PDF files by scaling all pages"
-  homepage "https://example.com/pdf-resizer"
-  url "file:///Volumes/Development/pdf-resizer/pdf-resizer-1.0.0.tar.gz"
-  version "1.0.0"
+  homepage "https://github.com/evrentan/pdf-resizer"
+  url "https://github.com/evrentan/pdf-resizer/pdf-resizer-1.0.0.tar.gz"
   sha256 "ecdaa83e17aebb506b78a6b78f2ac68bd687293f3923208ca2529469d422e760"
+  license "MIT"
 
   depends_on "python@3.12"
 
