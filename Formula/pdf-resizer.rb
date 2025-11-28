@@ -3,8 +3,8 @@ class PdfResizer < Formula
 
   desc "Resize PDF files by scaling all pages"
   homepage "https://github.com/evrentan/pdf-resizer"
-  url "https://github.com/evrentan/pdf-resizer/pdf-resizer-1.0.0.tar.gz"
-  sha256 "ecdaa83e17aebb506b78a6b78f2ac68bd687293f3923208ca2529469d422e760"
+  url "https://github.com/evrentan/pdf-resizer/archive/refs/tags/v1.0.0.tar.gz"
+  sha256 "4df6afadb0e065d91db8263d84f68a63d416fd8cdee1d9bb07e47353d97b1a18"
   license "MIT"
 
   depends_on "python@3.12"
